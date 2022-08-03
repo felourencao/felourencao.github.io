@@ -81,7 +81,7 @@
   margin-bottom: 8px;
 }
 
-.alfa__bicicleta-ficha li {
+.alfa__bicicleta--ficha li {
   padding: 4px 0;
   display: flex;
   justify-content: space-between;

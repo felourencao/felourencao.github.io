@@ -40,7 +40,7 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .alfa__introducao-conteudo {
+  .alfa__introducao--conteudo {
     padding-bottom: 0px;
   }
   .alfa__introducao h1 {

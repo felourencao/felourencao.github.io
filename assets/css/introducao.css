@@ -13,8 +13,7 @@
 	line-height: 1.125;
 	margin-bottom: 30px;
 	position: relative;
-	text-shadow: .2px .2px 3px #fff;
-
+	text-shadow: 0.2px 0.2px 3px #fff;
 }
 
 .alfa__introducao h1::before {
@@ -27,6 +26,11 @@
 	top: -15px;
 	left: -40px;
 	z-index: -1;
+}
+
+.alfa__introducao img {
+	border-radius: 5%;
+	box-shadow: 1px 1px 6px #ccc;
 }
 
 .alfa__introducao p {

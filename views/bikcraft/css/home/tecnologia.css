@@ -73,7 +73,7 @@
 }
 
 @media (max-width: 600px) {
-  .tecnologia-vantagens {
+  .alfa__tecnologia--vantagens {
     flex-direction: column;
   }
 }

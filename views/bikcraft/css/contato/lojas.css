@@ -55,7 +55,7 @@
   .alfa__lojas h2 {
     margin-bottom: 32px;
   }
-  .alfa__lojas-conteudo {
+  .alfa__lojas--conteudo {
     grid-template-columns: 1fr;
   }
 }
