@@ -1,8 +1,8 @@
-.bicicletas-bg {
+.alfa__bicicletas--bg {
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
 
-.bicicletas {
+.alfa__bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -11,15 +11,15 @@
   background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
-.bicicletas-imagem {
+.alfa__bicicletas--imagem {
   display: grid;
 }
 
-.bicicletas-imagem img {
+.alfa__bicicletas--imagem img {
   grid-area: 1/1;
 }
 
-.bicicletas-imagem span {
+.alfa__bicicletas--imagem span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
@@ -29,22 +29,22 @@
   border-radius: 4px 0 0 4px;
 }
 
-.bicicletas-conteudo {
+.alfa__bicicletas--conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
 }
 
-.bicicletas h2,
-.bicicletas p {
+.alfa__bicicletas h2,
+.alfa__bicicletas p {
   grid-column: 1/-1;
 }
 
-.bicicletas h2 {
+.alfa__bicicletas h2 {
   margin-bottom: 20px;
 }
 
-.bicicletas h2::before {
+.alfa__bicicletas h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -53,34 +53,34 @@
   margin-bottom: 8px;
 }
 
-.bicicletas p {
+.alfa__bicicletas p {
   margin-bottom: 32px;
 }
 
-.bicicletas a {
+.alfa__bicicletas a {
   place-self: end;
 }
 
-.bicicletas li {
+.alfa__bicicletas li {
   display: flex;
   align-items: center;
 }
 
-.bicicletas ul {
+.alfa__bicicletas ul {
   display: grid;
   gap: 16px;
 }
 
-.bicicletas-conteudo img {
+.alfa__bicicletas-conteudo img {
   width: 24px;
   margin-right: 8px;
 }
 
 @media (max-width: 800px) {
-  .bicicletas-bg {
+  .alfa__bicicletas--bg {
     background: var(--cor-11);
   }
-  .bicicletas {
+  .alfa__bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
@@ -89,15 +89,15 @@
 }
 
 @media (max-width: 600px) {
-  .bicicletas-conteudo {
+  .alfa__bicicletas--conteudo {
     grid-template-columns: 1fr;
   }
-  .bicicletas ul {
+  .alfa__bicicletas ul {
     font-size: 1rem;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
   }
-  .bicicletas a {
+  .alfa__bicicletas a {
     place-self: start;
   }
 }

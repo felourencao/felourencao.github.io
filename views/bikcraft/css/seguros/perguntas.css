@@ -1,22 +1,22 @@
-.perguntas {
+.alfa__perguntas {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.perguntas h2 {
+.alfa__perguntas h2 {
   margin-bottom: 60px;
 }
 
-.perguntas dl > div {
+.alfa__perguntas dl > div {
   padding: 20px;
   border-radius: 4px;
 }
 
-.perguntas dl > div:nth-child(odd) {
+.alfa__perguntas dl > div:nth-child(odd) {
   background-color: var(--cor-1);
 }
 
-.perguntas dt {
+.alfa__perguntas dt {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.perguntas dt::before {
+.alfa__perguntas dt::before {
   content: "";
   display: inline-block;
   width: 12px;
@@ -32,7 +32,7 @@
   background-color: var(--cor-p1);
 }
 
-.perguntas dt::after {
+.alfa__perguntas dt::after {
   content: "";
   display: inline-block;
   width: 14px;
@@ -41,22 +41,22 @@
   transition: 0.3s;
 }
 
-.perguntas dt:hover::after {
+.alfa__perguntas dt:hover::after {
   transform: rotate(180deg);
 }
 
-.perguntas dd {
+.alfa__perguntas dd {
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
 }
 
 @media (max-width: 800px) {
-  .perguntas {
+  .alfa__perguntas {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .perguntas h2 {
+  .alfa__perguntas h2 {
     margin-bottom: 40px;
   }
 }

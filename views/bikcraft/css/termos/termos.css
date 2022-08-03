@@ -1,18 +1,18 @@
-.termos {
+.alfa__termos {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-.termos h2 {
+.alfa__termos h2 {
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.termos p + h2 {
+.alfa__termos p + h2 {
   margin-top: 40px;
 }
 
-.termos p {
+.alfa__termos p {
   max-width: 75ch;
   margin-bottom: 24px;
 }

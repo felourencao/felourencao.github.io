@@ -1,41 +1,41 @@
-.seguro-bg {
+.alfa__seguro--bg {
   background-color: var(--cor-11);
   box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-12);
 }
 
-.seguro {
+.alfa__seguro {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
-.seguro-imagem img {
+.alfa__seguro--imagem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.seguro-conteudo {
+.alfa__seguro--conteudo {
   padding-top: 180px;
   padding-bottom: 180px;
 }
 
-.seguro h2 {
+.alfa__seguro h2 {
   margin-bottom: 32px;
 }
 
-.seguro p {
+.alfa__seguro p {
   margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
-  .seguro-bg {
+  .alfa__seguro--bg {
     box-shadow: inset 0 -60px var(--cor-12);
   }
-  .seguro {
+  .alfa__seguro {
     grid-template-columns: 1fr;
   }
-  .seguro-conteudo {
+  .alfa__seguro--conteudo {
     grid-row: 1;
     padding-top: 40px;
     padding-bottom: 0px;
