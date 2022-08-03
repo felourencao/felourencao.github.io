@@ -1,0 +1,152 @@
+.alfa__formacao {
+  background: #141414;
+  color: #ffffff;
+}
+
+.alfa__formacao--container {
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  position: relative;
+}
+
+.alfa__formacao--container::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../images/portfolio/detalhe.svg") no-repeat center;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+}
+
+.alfa__formacao .alfa__subtitulo {
+  color: #000000;
+  max-width: 5ch;
+}
+
+.alfa__formacao--texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.alfa__formacao--texto strong {
+  color: #ffffff;
+}
+
+.alfa__faculdade--lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.alfa__faculdade {
+  flex: 1;
+  background: #000000;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.alfa__faculdade--tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px;
+}
+
+.alfa__faculdade--curso {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.alfa__faculdade--curso::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: -24px;
+}
+
+.alfa__faculdade--instituicao {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+}
+
+.alfa__cursos {
+  margin-bottom: 60px;
+}
+
+.alfa__formacao--extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.alfa__formacao--extra h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.alfa__cursos h3::before {
+  background: url("../images/portfolio/cursos.svg") no-repeat center center;
+}
+
+.alfa__idiomas h3::before {
+  background: url("../images/portfolio/idiomas.svg") no-repeat center center;
+}
+
+.alfa__formacao--extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.alfa__formacao--extra span {
+  color: #8f8f8f;
+}
+
+.alfa__cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .alfa__formacao--container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .alfa__formacao .alfa__subtitulo {
+    color: #ffffff;
+  }
+  .alfa__formacao--texto {
+    font-size: 1.25rem;
+  }
+  .alfa__formacao--extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
