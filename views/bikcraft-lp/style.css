@@ -6,59 +6,49 @@ body {
 	justify-items: center;
 	margin-top: 60px;
 	background-color: #f7f7f7;
-}
-
-img {
+  }
+  
+  img {
 	max-width: 100%;
 	display: block;
-}
-
-a {
+  }
+  
+  a {
 	text-decoration: none;
-}
-
-ul {
+  }
+  
+  ul {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-}
-
-p,
-h1,
-h2,
-h3 {
+  }
+  
+  p,
+  h1,
+  h2,
+  h3 {
 	margin: 0px;
-}
-
-p {
+  }
+  
+  p {
 	font-size: 1.25rem;
 	line-height: 1.3;
-}
-
-.alfa__botao--home{
-	position: fixed;
-	right: 40px;
-	bottom: 40px;
-	background-color: #fff;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-}
-
-.alfa__header {
+  }
+  
+  .alfa__header {
 	display: grid;
 	gap: 60px;
 	justify-items: center;
-}
-
-.alfa__menu {
+  }
+  
+  .alfa__menu {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
 	justify-content: center;
-}
-
-.alfa__menu a {
+  }
+  
+  .alfa__menu a {
 	display: block;
 	background: #ffffff;
 	padding: 1rem 2rem;
@@ -66,19 +56,19 @@ p {
 	color: #000000;
 	text-transform: uppercase;
 	border: 2px solid #fff;
-}
-
-.alfa__menu a:hover {
+  }
+  
+  .alfa__menu a:hover {
 	border-color: #e21;
-}
-
-.alfa__conteudo {
+  }
+  
+  .alfa__conteudo {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	max-width: 1000px;
-}
-
-.alfa__introducao {
+  }
+  
+  .alfa__introducao {
 	background: #fff;
 	padding: 40px;
 	text-align: right;
@@ -87,13 +77,13 @@ p {
 	gap: 20px;
 	align-content: center;
 	justify-items: end;
-}
-
-.alfa__introducao h1 {
+  }
+  
+  .alfa__introducao h1 {
 	font-size: 2rem;
-}
-
-.alfa__introducao::before {
+  }
+  
+  .alfa__introducao::before {
 	content: "";
 	width: 60px;
 	height: 4px;
@@ -101,21 +91,26 @@ p {
 	position: absolute;
 	top: 30px;
 	right: -30px;
-}
-
-.alfa__botao {
+  }
+  
+  .alfa__introducao--cover img {
+	object-fit: cover;
+	height: 100%;
+  }
+  
+  .alfa__botao {
 	background: #e21;
 	color: #fff;
 	padding: 1rem 2rem;
 	border-radius: 4px;
 	text-transform: uppercase;
-}
-
-.alfa__botao:hover {
+  }
+  
+  .alfa__botao:hover {
 	background: #900;
-}
-
-.alfa__subtitulo {
+  }
+  
+  .alfa__subtitulo {
 	font-size: 4rem;
 	text-transform: uppercase;
 	color: rgba(0, 0, 0, 0.2);
@@ -123,41 +118,43 @@ p {
 	padding: 40px;
 	align-self: center;
 	background-image: url("./img/onda.svg");
-}
-
-.alfa__vantagens {
+	/* word-break: break-all; */
+  }
+  
+  .alfa__vantagens {
 	background: #fff;
 	padding: 40px;
-}
-
-.alfa__vantagens--item {
+  }
+  
+  .alfa__vantagens--item {
 	display: grid;
 	grid-template-columns: auto 1fr;
 	gap: 10px 20px;
 	padding: 20px;
 	border-left: 4px solid transparent;
-}
-
-.alfa__vantagens--item:nth-child(odd) {
+  }
+  
+  .alfa__vantagens--item:nth-child(odd) {
 	background: #f7f7f7;
-}
-
-.alfa__vantagens--item:hover {
+  }
+  
+  .alfa__vantagens--item:hover {
 	border-color: #e21;
-}
-
-.alfa__vantagens--item p {
+  }
+  
+  .alfa__vantagens--item p {
 	grid-column: 2;
-}
-
-.alfa__footer {
+  }
+  
+  .alfa__rodape {
 	background: #fff;
 	width: 100%;
 	text-align: center;
 	padding: 40px;
 	box-sizing: border-box;
-}
-@media (max-width: 1000px) {
+  }
+  
+  @media (max-width: 1000px) {
 	.alfa__conteudo--vantagem {
 	  grid-template-columns: 1fr;
 	}
@@ -197,3 +194,4 @@ p {
 	  font-size: 1rem;
 	}
   }
+  
