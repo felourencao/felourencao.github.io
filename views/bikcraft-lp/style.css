@@ -157,3 +157,43 @@ p {
 	padding: 40px;
 	box-sizing: border-box;
 }
+@media (max-width: 1000px) {
+	.alfa__conteudo--vantagem {
+	  grid-template-columns: 1fr;
+	}
+	.alfa__subtitulo {
+	  text-align: center;
+	}
+  }
+  
+  @media (max-width: 600px) {
+	body {
+	  gap: 30px;
+	  margin-top: 20px;
+	}
+	.alfa__header {
+	  gap: 30px;
+	}
+	.alfa__conteudo {
+	  grid-template-columns: 1fr;
+	}
+	.alfa__introducao {
+	  text-align: left;
+	  justify-items: start;
+	}
+	.alfa__introducao::before {
+	  display: none;
+	}
+	.alfa__subtitulo {
+	  font-size: 3rem;
+	}
+  }
+  
+  @media (max-width: 400px) {
+	.alfa__subtitulo {
+	  font-size: 2rem;
+	}
+	p {
+	  font-size: 1rem;
+	}
+  }
