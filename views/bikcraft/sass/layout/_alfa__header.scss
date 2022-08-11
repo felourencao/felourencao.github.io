@@ -30,7 +30,8 @@
 				transition: 0.3s;
 				position: absolute;
 			}
-			&:hover:after {
+			&:hover:after,
+			&.active::after {
 				width: 100%;
 			}
 		}

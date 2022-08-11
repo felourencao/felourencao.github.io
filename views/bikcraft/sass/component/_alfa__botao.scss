@@ -1,13 +1,3 @@
-.alfa__botao--home {
-	position: fixed;
-	right: 40px;
-	bottom: 40px;
-	background-color: #fff;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-}
-
 .alfa__botao {
 	display: inline-block;
 	padding: 16px 32px;
@@ -23,6 +13,16 @@
 
 	&:hover {
 		background: linear-gradient(var(--cor-btn-h1), var(--cor-btn-h2));
+	}
+
+	&--home {
+		position: fixed;
+		right: 40px;
+		bottom: 40px;
+		background-color: #fff;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
 	}
 
 	&.secundario {
@@ -43,7 +43,7 @@
 			width: 18px;
 			height: 10px;
 			margin-left: 12px;
-			background: url("../../img/icones/seta.svg");
+			background: url("../img/icones/seta.svg");
 			transition: transform 0.2s;
 		}
 		&:hover::after {
