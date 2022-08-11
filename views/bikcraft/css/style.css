@@ -386,6 +386,10 @@ img[src$=".jpg"] {
   --cor-p4: #664400;
   --cor-p5: #332200;
   --cor-h-bg: #000;
+  --cor-btn-1: #ffbf00
+  --cor-btn-2: #f2a50c;
+  --cor-btn-h1: #ffb60d;
+  --cor-btn-h2: #e59317;
 }
 
 .cor-0 {
@@ -806,7 +810,7 @@ img[src$=".jpg"] {
 .alfa__botao {
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(#ffbf00, #f2a50c);
+  background: linear-gradient(var(--cor-btn-1), var(--cor-btn-2));
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
@@ -817,7 +821,7 @@ img[src$=".jpg"] {
   cursor: pointer;
 }
 .alfa__botao:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: linear-gradient(var(--cor-btn-h1), var(--cor-btn-h2));
 }
 .alfa__botao.secundario {
   background: var(--cor-10);
