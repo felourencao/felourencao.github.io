@@ -320,27 +320,27 @@ template {
   display: none;
 }
 
-.fadeInDown {
+.js .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
 
-.fadeInUp {
+.js .fadeInUp {
   transform: translate3d(0, 20px, 0);
 }
 
-.fadeInRight {
+.js .fadeInRight {
   transform: translate3d(20px, 0, 0);
 }
 
-.fadeInLeft {
+.js .fadeInLeft {
   transform: translate3d(-20px, 0, 0);
 }
 
-[data-anime] {
+.js [data-anime] {
   opacity: 0;
 }
 
-.anime {
+.js .anime {
   opacity: 1;
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
@@ -613,7 +613,7 @@ img[src$=".jpg"] {
   gap: 0 2.5rem;
 }
 .alfa__introducao--bg {
-  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 160px left 20px;
+  background: var(--cor-12) url("../img/dec/bottom-left.svg") no-repeat bottom 160px left 20px;
   box-shadow: inset 0 -120px var(--cor-0);
 }
 .alfa__introducao--conteudo {
@@ -1179,14 +1179,14 @@ img[src$=".jpg"] {
 }
 .alfa__contato--dados {
   border-radius: 5px 0 0 5px;
-  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
+  background: var(--cor-12) url("../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
 }
 .alfa__contato--dados h2 {
   margin-bottom: 3.75rem;
 }
 .alfa__contato--formulario {
   border-radius: 0 5px 5px 0;
-  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+  background: var(--cor-0) url("../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 .alfa__contato--endereco {
   margin-bottom: 2rem;
@@ -1315,7 +1315,7 @@ img[src$=".jpg"] {
 .alfa__depoimento--conteudo {
   padding: 40px 40px 80px 80px;
   align-self: end;
-  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
+  background: url("../img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
 }
 .alfa__depoimento--conteudo p {
   max-width: 32ch;
@@ -1508,7 +1508,7 @@ img[src$=".jpg"] {
 }
 .alfa__orcamento--produto {
   border-radius: 5px 0 0 5px;
-  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
+  background: var(--cor-12) url("../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -1574,7 +1574,7 @@ img[src$=".jpg"] {
 }
 .alfa__orcamento--dados {
   border-radius: 0 5px 5px 0;
-  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+  background: var(--cor-0) url("../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 .alfa__orcamento--conteudo {
   display: none;
@@ -1666,15 +1666,6 @@ img[src$=".jpg"] {
 .alfa__perguntas button:hover::after, .alfa__perguntas button button[aria-expanded=true]::after {
   transform: rotate(180deg);
 }
-.alfa__perguntas dd {
-  display: none;
-}
-.alfa__perguntas dd.active {
-  display: block;
-  padding-left: 20px;
-  padding-top: 16px;
-  max-width: 80ch;
-}
 
 @media (max-width: 800px) {
   .alfa__perguntas {
@@ -1685,6 +1676,16 @@ img[src$=".jpg"] {
     margin-bottom: 40px;
   }
 }
+.js .alfa__perguntas dd {
+  display: none;
+}
+.js .alfa__perguntas dd.active {
+  display: block;
+  padding-left: 20px;
+  padding-top: 16px;
+  max-width: 80ch;
+}
+
 #seguros .alfa__seguros {
   padding-top: 0px;
 }

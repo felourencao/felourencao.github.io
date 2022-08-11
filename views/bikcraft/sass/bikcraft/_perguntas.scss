@@ -45,17 +45,6 @@
 			transform: rotate(180deg);
 		}
 	}
-
-	dd {
-		display: none;
-	}
-
-	dd.active {
-		display: block;
-		padding-left: 20px;
-		padding-top: 16px;
-		max-width: 80ch;
-	}
 }
 
 @media (max-width: 800px) {
@@ -66,5 +55,15 @@
 		h2 {
 			margin-bottom: 40px;
 		}
+	}
+}
+
+.js .alfa__perguntas dd {
+	display: none;
+	&.active {
+		display: block;
+		padding-left: 20px;
+		padding-top: 16px;
+		max-width: 80ch;
 	}
 }
