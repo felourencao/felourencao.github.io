@@ -1,0 +1,17 @@
+.alfa__termos {
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+	h2 {
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+
+	p {
+		max-width: 75ch;
+		margin-bottom: 24px;
+		& + h2 {
+			margin-top: 40px;
+		}
+	}
+}

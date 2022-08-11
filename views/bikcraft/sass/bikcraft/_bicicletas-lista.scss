@@ -1,0 +1,65 @@
+#bicicleta .alfa__bicicletas--lista ul {
+	padding: 0px 0px 20px 0px;
+}
+
+.alfa__bicicletas--lista {
+	padding-top: 60px;
+	padding-bottom: 120px;
+
+	h2 {
+		margin-bottom: 40px;
+	}
+
+	ul {
+		display: flex;
+		gap: 40px;
+		padding: 0 20px 20px 20px;
+		max-width: 1400px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow-x: auto;
+	}
+
+	li {
+		flex: 1;
+		min-width: 280px;
+		span {
+			padding-left: 20px;
+		}
+	}
+
+	a {
+		display: block;
+	}
+
+	img {
+		margin-bottom: 16px;
+	}
+
+	h3 {
+		margin-bottom: 8px;
+		display: flex;
+		align-items: center;
+		&::before {
+			content: "";
+			display: inline-block;
+			height: 8px;
+			width: 12px;
+			margin-right: 8px;
+			background-color: var(--cor-p1);
+			transition: width 0.2s;
+		}
+	}
+}
+.alfa__bicicletas--lista a:hover h3::before {
+	width: 24px;
+}
+
+@media (max-width: 800px) {
+	.alfa__bicicletas--lista {
+		padding-bottom: 60px;
+	}
+	.alfa__bicicletas--lista ul {
+		gap: 20px;
+	}
+}
