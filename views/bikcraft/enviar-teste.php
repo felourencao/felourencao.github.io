@@ -3,10 +3,10 @@
 $email = "";
 $senha = "";
 
-$smtp = "smtp-mail.outlook.com";
-$porta = 587;
+$smtp = "smtp.titan.email";
+$porta = 465;
 
-$email_contato = "fe.lourencao@hotmail.com";
+$email_contato = "teste@bikcraft.net";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -43,5 +43,3 @@ try {
 } catch (Exception $e) {
   echo "<h1>Erro, mensagem não enviada.</h1>";
 }
-
-?>
