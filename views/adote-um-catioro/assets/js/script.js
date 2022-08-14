@@ -1,9 +1,0 @@
-$(document).ready(function(){
-    $('#click').click(function(){
-      $('#dog').fadeToggle(800);
-      $('#cat').fadeToggle(900);
-      $("#bird").fadeToggle(1000);
-      $("#mouse").fadeToggle(1100);
-      $("#turtle").fadeToggle(1200);  
-    });
-  });    
